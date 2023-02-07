@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#video,
+button,
+canvas {
+  letter-spacing: 2px;
+  margin: 10px;
+  border: none;
+  padding: 20px;
+  width: 64%;
+  height: 36%;
+  background-color: aqua;
+}
+
+button {
+  cursor: pointer;
+}
